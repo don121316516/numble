@@ -15,6 +15,15 @@ $(document).ready(function () {
 
         // console.log("視窗的上方：" + windowTop);
 
+        // 取得參數：數字、時間與位移
+        var number = $("#test").attr("data-counter-number");
+        var time = $("#test").attr("data-counter-time");
+        var offset = $("#test").attr("data-counter-offset");
+
+        //console.log("數字：" + number);
+        //console.log("時間：" + time);
+        //console.log("位移：" + offset);
+
         // id  ()  {}
         // 如果 發生什麼事 就...
         // if (條件) { 程式 }
@@ -23,9 +32,9 @@ $(document).ready(function () {
         }
 
         $("#test").animate({
-            num: 9999999
+            num: number
         }, {
-            duration: 20000,
+            duration: parseInt(time),
             step: (now) => {
                 $("#test").text(Math.floor(now));
             }
