@@ -16,7 +16,7 @@
 2.計數器 CDN
 ```
 
-https://don121316516.github.io/numble/counter.js
+<script src="https://don121316516.github.io/numble/counter.js"></script>
 ```
 
 3.參數說明
