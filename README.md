@@ -1,16 +1,20 @@
 # numble
 
 網頁 赫綵 臺中 計數器
+```
 
 展示網頁：https://don121316516.github.io/numble/
+```
 
-使用方式
+#使用方式
 
 1.請先 CDN JQuery
 
 2.計數器 CDN
+```
 
 https://github.com/don121316516/numble/blob/master/counter.js
+```
 
 3.參數說明
 ```
