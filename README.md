@@ -6,14 +6,17 @@
 展示網頁：https://don121316516.github.io/numble/
 ```
 
-#使用方式
+# 使用方式
 
 1.請先 CDN JQuery
 
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+```
 2.計數器 CDN
 ```
 
-https://github.com/don121316516/numble/blob/master/counter.js
+https://don121316516.github.io/numble/counter.js
 ```
 
 3.參數說明
